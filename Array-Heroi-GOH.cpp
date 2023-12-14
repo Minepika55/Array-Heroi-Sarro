@@ -70,7 +70,7 @@ void llistaSarro(vector<string>& sarro, int Maxitems) {
 }
 
 /// <summary>
-/// 
+/// Aquesta part del codi es per el menu de seleccio de l'usuari on es pot triar el que vol fer.
 /// </summary>
 /// <returns></returns>
 int main()
@@ -80,7 +80,7 @@ int main()
 	int Maxitems = 10;//Items maxims del sarro.
 	int Opcio;// Menu d'opcions per el jugador.
 
-	do {
+	do {// Bucle de les opcions
 		cout << "***1. Guardar Item***"<< endl;
 		cout << "***2. Treure Item***"<< endl;
 		cout << "***3. Mostrar el sarro***"<< endl;
@@ -88,7 +88,7 @@ int main()
 		cout << "***5. Sortir del joc***"<< endl;
 		cin >> Opcio;
 
-		switch (Opcio) {
+		switch (Opcio) {// Aqui es on s'executa la opcio seleccionada.
 		case 1:
 			addObjecte(sarro, Maxitems);
 			break;
