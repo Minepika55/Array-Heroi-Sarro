@@ -80,7 +80,7 @@ int main()
 	int Maxitems = 10;//Items maxims del sarro.
 	int Opcio;// Menu d'opcions per el jugador.
 
-	do {// Bucle de les opcions
+	do {// Bucle de les opcions.
 		cout << "***1. Guardar Item***"<< endl;
 		cout << "***2. Treure Item***"<< endl;
 		cout << "***3. Mostrar el sarro***"<< endl;
